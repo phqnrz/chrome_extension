@@ -1,0 +1,13 @@
+{
+    "name": "My Extension",
+    "description": "My first extension for Google Chrome browser.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_popup": "index.html"
+    }
+}
